@@ -13,3 +13,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 end
+
+
+def take_a_number(katz_deli, name)
+  place = []
+  if katz_deli.size>0
+    katz_deli.each_with_index {|name, index|
+      place << "#{index+1}. #{name}"}
+      puts "Welcome, #{name}. You are number #{index+1} in line"
+end
