@@ -9,4 +9,8 @@ def line(katz_deli)
   end
 end
 
-def take_a_number("The line is currently empty.")
+def take_a_number(katz_deli, name)
+  katz_deli = []
+  puts "Welcome, #{name}. You are number #{name.size} in line"
+end
+
