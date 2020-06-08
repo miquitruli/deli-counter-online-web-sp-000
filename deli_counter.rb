@@ -9,6 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do|name, index|
       line << "#{index+1}. #{name}"
     puts "The line is currently: #{line.join(" ")}"
+  end
   elsif katz_deli<1
     puts "The line is currently empty."
   end
