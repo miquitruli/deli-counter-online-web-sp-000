@@ -16,8 +16,8 @@ end
 
 
 def take_a_number(katz_deli, name)
-  if katz_deli.size>0
-    katz_deli.each_with_index {|name, index|
-    puts "Welcome, #{name}. You are number #{index+1} in line"}
+  if katz_deli(name).size>0
+    katz_deli(name).each_with_index {|name, index|
+      puts "Welcome, #{name}. You are number #{index+1} in line"}
   end
 end
